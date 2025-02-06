@@ -1,4 +1,4 @@
-package com.senai.ecommerce.controller.dto;
+package com.senai.ecommerce.dto;
 
 public record ItemDoPedidoDTO(Integer quantidade, Double preco) {
 
