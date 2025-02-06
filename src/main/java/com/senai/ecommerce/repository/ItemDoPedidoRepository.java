@@ -2,8 +2,8 @@ package com.senai.ecommerce.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.senai.ecommerce.entity.itemDoPedidoEntity;
+import com.senai.ecommerce.entity.ItemDoPedidoEntity;
 
-public interface ItemDoPedidoRepository extends JpaRepository<Integer,itemDoPedidoEntity>{
+public interface ItemDoPedidoRepository extends JpaRepository<ItemDoPedidoEntity,Integer>{
 
 }

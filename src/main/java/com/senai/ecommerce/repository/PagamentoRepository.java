@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.senai.ecommerce.entity.PagamentoEntity;
 
-public interface PagamentoRepository extends JpaRepository<Long, PagamentoEntity>{
+public interface PagamentoRepository extends JpaRepository<PagamentoEntity,Long>{
 	
 }

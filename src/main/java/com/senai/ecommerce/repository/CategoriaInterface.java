@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.senai.ecommerce.entity.CategoriaEntity;
 
-public interface CategoriaInterface extends JpaRepository<Long, CategoriaEntity > {
+public interface CategoriaInterface extends JpaRepository<CategoriaEntity, Long> {
 
 }
